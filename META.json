@@ -1,5 +1,5 @@
 {
-   "abstract" : "A Client Class for Azure Event Hubs",
+   "abstract" : "A Client Class for Azure Event Hubs ",
    "author" : [
       "ytnobody <ytnobody@gmail.com>"
    ],

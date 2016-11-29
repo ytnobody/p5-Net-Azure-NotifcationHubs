@@ -1,18 +1,18 @@
 # NAME
 
-Net::Azure::EventHubs - A Client Class for Azure Event Hubs 
+Net::Azure::NotificationHubs - A Client Class for Azure Event Hubs 
 
 # SYNOPSIS
 
-    use Net::Azure::EventHubs;
-    my $nh = Net::Azure::EventHubs->new(
+    use Net::Azure::NotificationHubs;
+    my $nh = Net::Azure::NotificationHubs->new(
         connection_string => 'Endpoint=sb://...',
         hub_name          => 'myhub',
         apns_expiry       => '2017-10-10T00:00+09:00',
     );
     ## or use Net::Azure::Authorization::SAS for Authorization
     my $sas = Net::Azure::Authorization::SAS->new(connection_string => 'Endpoint=sb://...');
-    $nh = Net::Azure::EventHubs->new(
+    $nh = Net::Azure::NotificationHubs->new(
         authorizer  => $sas
         hub_name    => 'myhub',
         apns_expiry => '2017-10-10T00:00+09:00',
