@@ -18,7 +18,7 @@ if (-e $test_config_file) {
 
 if (!$config) {
     plan skip_all => "$test_config_file is not exists or invalid.";
-;
+};
 
 my $nh = Net::Azure::NotificationHubs->new(%$config);
 
