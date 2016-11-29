@@ -1,6 +1,6 @@
 # NAME
 
-Net::Azure::NotificationHubs - A Client Class for Azure Event Hubs 
+Net::Azure::NotificationHubs - A Client Class for Azure Notification Hubs 
 
 # SYNOPSIS
 

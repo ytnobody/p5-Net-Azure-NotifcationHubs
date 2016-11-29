@@ -99,7 +99,7 @@ __END__
 
 =head1 NAME
 
-Net::Azure::NotificationHubs - A Client Class for Azure Event Hubs 
+Net::Azure::NotificationHubs - A Client Class for Azure Notification Hubs 
 
 =head1 SYNOPSIS
 
