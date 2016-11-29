@@ -5,6 +5,7 @@ use Net::Azure::NotificationHubs;
 use utf8;
 use Time::Piece;
 use Encode;
+use File::Spec;
 
 my $test_config_file = File::Spec->catfile(qw/t sas.conf/);
 my $config;
