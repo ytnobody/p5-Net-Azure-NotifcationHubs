@@ -42,7 +42,16 @@
       },
       "runtime" : {
          "requires" : {
+            "Carp" : "0",
+            "Class::Accessor::Lite" : "0",
+            "HTTP::Message" : "0",
+            "HTTP::Request" : "0",
+            "JSON" : "0",
+            "LWP::Protocol::https" : "0",
+            "LWP::UserAgent" : "0",
             "Net::Azure::Authorization::SAS" : "0",
+            "Try::Tiny" : "0",
+            "URI" : "0",
             "perl" : "5.008001"
          }
       },
@@ -53,6 +62,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ytnobody/p5-Net-Azure-NotifcationHubs/issues"
+      },
+      "homepage" : "https://github.com/ytnobody/p5-Net-Azure-NotifcationHubs",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ytnobody/p5-Net-Azure-NotifcationHubs.git",
+         "web" : "https://github.com/ytnobody/p5-Net-Azure-NotifcationHubs"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:YTURTLE"
 }
