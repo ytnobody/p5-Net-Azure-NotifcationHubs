@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ytnobody/p5-Net-Azure-NotifcationHubs.svg?branch=master)](https://travis-ci.org/ytnobody/p5-Net-Azure-NotifcationHubs)
 # NAME
 
 Net::Azure::NotificationHubs - A Client Class for Azure Notification Hubs 

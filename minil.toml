@@ -1,5 +1,5 @@
 name = "Net-Azure-NotificationHubs"
-# badges = ["travis"]
+badges = ["travis"]
 authority="cpan:YTURTLE"
 
 module_maker="ModuleBuildTiny"
