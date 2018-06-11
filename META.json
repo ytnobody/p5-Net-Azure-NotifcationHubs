@@ -44,7 +44,6 @@
          "requires" : {
             "Carp" : "0",
             "Class::Accessor::Lite" : "0",
-            "HTTP::Message" : "0",
             "HTTP::Tiny" : "0",
             "JSON" : "0",
             "Net::Azure::Authorization::SAS" : "0.03",
@@ -72,7 +71,7 @@
          "web" : "https://github.com/ytnobody/p5-Net-Azure-NotifcationHubs"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_authority" : "cpan:YTURTLE",
    "x_contributors" : [
       "azuma.satoshi <azuma.satoshi@colon.ne.jp>"
