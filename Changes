@@ -2,6 +2,9 @@ Revision history for Perl extension Net-Azure-NotificationHubs
 
 {{$NEXT}}
 
+0.03 2018-06-11T01:20:04Z
+    - Fix for supporting to Net-Azure-Authorization-SAS-0.03
+
 0.02 2017-06-06T08:41:16Z
     - use fastapi.metacpan.org/v1 in t/31_response_as_hashref.t because v0 is shutdown
 
