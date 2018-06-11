@@ -45,12 +45,10 @@
             "Carp" : "0",
             "Class::Accessor::Lite" : "0",
             "HTTP::Message" : "0",
-            "HTTP::Request" : "0",
+            "HTTP::Tiny" : "0",
             "JSON" : "0",
-            "LWP::Protocol::https" : "0",
-            "LWP::UserAgent" : "0",
             "Net::Azure::Authorization::SAS" : "0.03",
-            "Try::Tiny" : "0",
+            "Net::SSLeay" : "0",
             "URI" : "0",
             "perl" : "5.008001"
          }
@@ -75,5 +73,8 @@
       }
    },
    "version" : "0.03",
-   "x_authority" : "cpan:YTURTLE"
+   "x_authority" : "cpan:YTURTLE",
+   "x_contributors" : [
+      "azuma.satoshi <azuma.satoshi@colon.ne.jp>"
+   ]
 }
