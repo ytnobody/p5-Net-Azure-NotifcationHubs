@@ -7,7 +7,6 @@ use Net::Azure::NotificationHubs::Request;
 use JSON;
 use HTTP::Tiny;
 use URI;
-use HTTP::Request;
 use Carp;
 use String::CamelCase qw/camelize wordsplit/;
 use Class::Accessor::Lite (
@@ -22,7 +21,7 @@ use Class::Accessor::Lite (
     ]],
 );
 
-our $VERSION             = "0.05";
+our $VERSION             = "0.04";
 our $DEFAULT_API_VERSION = "2015-04";
 our $DEFAULT_TIMEOUT     = 60;
 
