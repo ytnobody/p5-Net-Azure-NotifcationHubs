@@ -71,7 +71,7 @@
          "web" : "https://github.com/ytnobody/p5-Net-Azure-NotifcationHubs"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_authority" : "cpan:YTURTLE",
    "x_contributors" : [
       "azuma.satoshi <azuma.satoshi@colon.ne.jp>"

@@ -2,6 +2,9 @@ Revision history for Perl extension Net-Azure-NotificationHubs
 
 {{$NEXT}}
 
+0.05 2018-06-11T06:19:02Z
+    - Remove HTTP::Request from NotificationHubs.pm
+
 0.04 2018-06-11T03:24:43Z
     - Change agent from LWP::UserAgent to HTTP::Tiny
 

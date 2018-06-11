@@ -71,8 +71,6 @@ Net::Azure::NotificationHubs::Request - A Request Class for Net::Azure::Notifica
 
 Net::Azure::NotificationHubs::Request is a request class for Net::Azure::NotificationHubs.
 
-It inherits HTTP::Request.
-
 =head1 METHODS
 
 =head2 new
