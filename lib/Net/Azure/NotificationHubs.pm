@@ -184,7 +184,7 @@ Set specified value to 'ServiceBusNotification-Format' header.
 
 =back
 
-head1 LICENSE
+=head1 LICENSE
 
 Copyright (C) ytnobody.
 
