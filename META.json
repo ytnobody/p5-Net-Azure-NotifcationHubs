@@ -6,7 +6,7 @@
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v2.4.1, CPAN::Meta::Converter version 2.150001",
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -71,9 +71,10 @@
          "web" : "https://github.com/ytnobody/p5-Net-Azure-NotifcationHubs"
       }
    },
-   "version" : "0.06",
+   "version" : "0.07",
    "x_authority" : "cpan:YTURTLE",
    "x_contributors" : [
-      "azuma.satoshi <azuma.satoshi@colon.ne.jp>"
+      "azuma.satoshi <azuma.satoshi@colon.ne.jp>",
+      "Mohammad S Anwar <mohammad.anwar@yahoo.com>"
    ]
 }
