@@ -30,7 +30,7 @@ sub new {
     
     $param{agent}         = HTTP::Tiny->new(agent => sprintf('%s/%s', $class, $VERSION));
     $param{serializer}    = JSON->new->utf8(1);
-    $param{api_version} ||= $DEFAULT_API_VERSION;
+    $param{api_version} ||= $DEFAULT_API_VERSION || croak 'api_version is required';
 
     if (!defined $param{authorizer}) {
         $param{authorizer} = eval {
