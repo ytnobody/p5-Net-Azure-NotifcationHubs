@@ -19,8 +19,8 @@ subtest 'do' => sub {
 };
 
 subtest 'do - 404' => sub {
-    # https://azure.microsoft.com/ja-jp/pricing/details/notification-hubs/ is available url,
-    # but it returns 404 Not Found for GET request, because the url missing the trailing 's' -> s/hubs/hub/
+# The plural URL 'https://azure.microsoft.com/ja-jp/pricing/details/notification-hubs/' is valid, 
+# but the singular 'https://azure.microsoft.com/ja-jp/pricing/details/notification-hub/' reliably returns a 404.
     my $uri = URI->new('https://azure.microsoft.com/ja-jp/pricing/details/notification-hub/');
     my $req = Net::Azure::NotificationHubs::Request->new(GET => $uri);
     $req->agent(HTTP::Tiny->new);
