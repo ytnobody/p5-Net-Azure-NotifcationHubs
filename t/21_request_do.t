@@ -20,7 +20,7 @@ subtest 'do' => sub {
 };
 
 subtest 'do - 404' => sub {
-    # Using mocked HTTP::Tiny to ensure consistent 404 behavior without external dependencies
+    # Using MockHTTPTiny to ensure consistent 404 behavior without external dependencies
     my $notfound_uri = URI->new('https://azure.microsoft.com/ja-jp/pricing/details/notification-hub/');
     my $req = Net::Azure::NotificationHubs::Request->new(GET => $notfound_uri);
     $req->agent(MockHTTPTiny->new);

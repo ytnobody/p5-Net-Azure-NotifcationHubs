@@ -1,5 +1,8 @@
-package 
+package # hide from PAUSE 
     MockHTTPTiny;
+
+# Test helper module to mock HTTP::Tiny responses
+# Provides deterministic HTTP responses for testing without external dependencies
 
 use strict;
 use warnings;
