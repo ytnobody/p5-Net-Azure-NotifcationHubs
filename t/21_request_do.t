@@ -21,8 +21,8 @@ subtest 'do' => sub {
 subtest 'do - 404' => sub {
 # The plural URL 'https://azure.microsoft.com/ja-jp/pricing/details/notification-hubs/' is valid, 
 # but the singular 'https://azure.microsoft.com/ja-jp/pricing/details/notification-hub/' reliably returns a 404.
-    my $uri = URI->new('https://azure.microsoft.com/ja-jp/pricing/details/notification-hub/');
-    my $req = Net::Azure::NotificationHubs::Request->new(GET => $uri);
+    my $notfound_uri = URI->new('https://azure.microsoft.com/ja-jp/pricing/details/notification-hub/');
+    my $req = Net::Azure::NotificationHubs::Request->new(GET => $notfound_uri);
     $req->agent(HTTP::Tiny->new);
     isa_ok $req, 'Net::Azure::NotificationHubs::Request';
     can_ok $req, qw/do/;
