@@ -19,7 +19,9 @@ subtest 'do' => sub {
 };
 
 subtest 'do - 404' => sub {
-    my $uri = URI->new('https://metacpan.org/notfound');
+    # https://azure.microsoft.com/ja-jp/pricing/details/notification-hubs/ is available url,
+    # but it returns 404 Not Found for GET request, because the url missing the trailing 's' -> s/hubs/hub/
+    my $uri = URI->new('https://azure.microsoft.com/ja-jp/pricing/details/notification-hub/');
     my $req = Net::Azure::NotificationHubs::Request->new(GET => $uri);
     $req->agent(HTTP::Tiny->new);
     isa_ok $req, 'Net::Azure::NotificationHubs::Request';
